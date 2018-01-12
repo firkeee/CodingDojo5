@@ -12,7 +12,7 @@ namespace CodingDojo5.ViewModel
         public ObservableCollection<ItemVm> MainItems { get; set; }
         public ObservableCollection<ItemVm> Cart { get; set; }
         private RelayCommand<ItemVm> buyBtnClickedCmd;
-
+         
         public RelayCommand<ItemVm> BuyBtnClickedCmd
         {
             get { return buyBtnClickedCmd; }
